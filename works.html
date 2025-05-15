@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Works - Maddie Oconnor</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Dropdown styles for nav */
+    .nav-dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .nav-dropdown-content {
+      display: none;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #ede7d1;
+      min-width: 220px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+      z-index: 1;
+      border-radius: 8px;
+      margin-top: 0.5rem;
+      padding: 0.5rem 0;
+    }
+    .nav-dropdown-content a {
+      color: #4a3621;
+      padding: 0.7rem 1.5rem;
+      text-decoration: none;
+      display: block;
+      font-size: 1.1rem;
+      font-family: 'Lancelot', serif;
+      letter-spacing: 1px;
+      transition: background 0.2s, color 0.2s;
+      border-radius: 4px;
+    }
+    .nav-dropdown-content a:hover {
+      background: #8b925b;
+      color: #ede7d1;
+    }
+    .nav-dropdown:hover .nav-dropdown-content {
+      display: block;
+    }
+    .works-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 70vh;
+    }
+    .works-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2.5rem;
+      margin-top: 2rem;
+    }
+    .works-link {
+      font-size: 2.2rem;
+      color: #4a3621;
+      text-decoration: none;
+      font-family: 'Lancelot', serif;
+      letter-spacing: 2px;
+      transition: color 0.2s, transform 0.2s;
+      text-align: center;
+    }
+    .works-link:hover {
+      color: #8b925b;
+      transform: scale(1.05);
+    }
+    .section-title {
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo"><img src="images/logo.PNG" alt="Maddie Oconnor Logo" class="logo-img"></div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="nav-dropdown">
+        <a href="works.html">My Works</a>
+        <div class="nav-dropdown-content">
+          <a href="sculptures.html">Sculptures</a>
+          <a href="watercolor.html">Watercolor</a>
+          <a href="sketches.html">Sketches</a>
+          <a href="photography.html">Photography</a>
+          <a href="multimedia.html">Multimedia Pieces</a>
+          <a href="digital.html">Digital Painting</a>
+          <a href="charcoal.html">Charcoal & Pencil</a>
+          <a href="animation.html">Animations</a>
+          <a href="3dmodeling.html">3D Modeling</a>
+        </div>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="works-center">
+    <div class="section-title">MY WORKS</div>
+    <img src="images/logo.PNG" alt="Maddie Oconnor Logo" class="logo-img-title">
+    <div class="works-list">
+      <a class="works-link" href="sculptures.html">Sculptures</a>
+      <a class="works-link" href="watercolor.html">Watercolor</a>
+      <a class="works-link" href="sketches.html">Sketches</a>
+      <a class="works-link" href="photography.html">Photography</a>
+      <a class="works-link" href="multimedia.html">Multimedia Pieces</a>
+      <a class="works-link" href="digital.html">Digital Painting</a>
+      <a class="works-link" href="charcoal.html">Charcoal & Pencil</a>
+      <a class="works-link" href="animation.html">Animations</a>
+      <a class="works-link" href="3dmodeling.html">3D Modeling</a>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 by Maddie Oconnor. Powered by HTML & CSS.
+  </footer>
+</body>
+</html> 
